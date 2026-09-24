@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Timeboxing</string>
+
+    <string name="previous_day">Previous day</string>
+    <string name="next_day">Next day</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="date_with_relative">%1$s · %2$s</string>
+
+    <string name="card_now">Now</string>
+    <string name="now_no_box">Unboxed time. Claim it.</string>
+    <string name="now_next_up">Unboxed · next: %1$s</string>
+    <string name="now_empty_countdown">--:--</string>
+    <string name="stat_started">Started</string>
+    <string name="stat_ends">Ends</string>
+    <string name="stat_next">Next</string>
+    <string name="stat_now">Now</string>
+    <string name="stat_free">Free</string>
+    <string name="stat_none">—</string>
+    <string name="action_mark_done">Mark done</string>
+    <string name="action_undo_done">Undo done</string>
+    <string name="action_box_this_slot">Box this slot</string>
+
+    <string name="card_priorities">Top 3</string>
+    <string name="priorities_hint">The few outcomes that actually move the needle today.</string>
+    <string name="priority_1_hint">Most important outcome</string>
+    <string name="priority_2_hint">Second</string>
+    <string name="priority_3_hint">Third</string>
+
+    <string name="card_analysis">Day Analysis</string>
+    <string name="stat_boxed">Boxed</string>
+    <string name="stat_blocks">Blocks</string>
+    <string name="stat_done">Done</string>
+    <string name="stat_open">Open</string>
+    <string name="hours_value">%1$s h</string>
+    <string name="percent_value">%1$d%%</string>
+
+    <string name="card_grid">5-Minute Blocks</string>
+    <string name="legend_boxed">Boxed</string>
+    <string name="legend_done">Done</string>
+    <string name="legend_free">Free</string>
+    <string name="grid_hint">Tap a free block to box it. Tap a box to edit.</string>
+    <plurals name="grid_description">
+        <item quantity="one">Day grid of five-minute blocks, %1$d box planned.</item>
+        <item quantity="other">Day grid of five-minute blocks, %1$d boxes planned.</item>
+    </plurals>
+
+    <string name="card_schedule">Schedule</string>
+    <string name="col_start">Start</string>
+    <string name="col_end">End</string>
+    <string name="col_minutes">Min</string>
+    <string name="col_task">Task</string>
+    <string name="schedule_empty">No boxes yet. If it is not scheduled, it does not happen.</string>
+    <string name="schedule_hint">Tap a row to edit · long-press to mark done</string>
+    <string name="action_add_box">Add new Box</string>
+
+    <string name="footer_motto">Every 5 minutes accounted for.</string>
+
+    <string name="sheet_new_box">New Box</string>
+    <string name="sheet_edit_box">Edit Box</string>
+    <string name="field_task">Task</string>
+    <string name="field_task_hint">What gets done in this box?</string>
+    <string name="field_start">Start</string>
+    <string name="field_end">End</string>
+    <string name="field_duration">Duration</string>
+    <string name="pick_start_time">Start time</string>
+    <string name="shorter">Shorter</string>
+    <string name="longer">Longer</string>
+    <string name="chip_5">5m</string>
+    <string name="chip_15">15m</string>
+    <string name="chip_30">30m</string>
+    <string name="chip_60">1h</string>
+    <string name="chip_90">90m</string>
+    <string name="action_save_box">Save Box</string>
+    <string name="action_delete_box">Delete box</string>
+    <string name="error_title_required">Name the box. Vague boxes produce vague results.</string>
+    <string name="error_overlap">Overlaps “%1$s” (%2$s–%3$s). One thing at a time.</string>
+    <string name="minutes_value">%1$d min</string>
+</resources>

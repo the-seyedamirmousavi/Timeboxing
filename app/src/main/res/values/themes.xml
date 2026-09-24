@@ -1,0 +1,36 @@
+<resources>
+    <!-- FitSho is a light, monochrome UI, so the app keeps that look in both system modes. -->
+    <style name="Base.Theme.Timeboxing" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/tb_button</item>
+        <item name="colorOnPrimary">@color/tb_on_button</item>
+        <item name="colorPrimaryContainer">@color/tb_field</item>
+        <item name="colorOnPrimaryContainer">@color/tb_ink</item>
+        <item name="colorSecondary">@color/tb_button</item>
+        <item name="colorOnSecondary">@color/tb_on_button</item>
+        <item name="colorSecondaryContainer">@color/tb_field</item>
+        <item name="colorOnSecondaryContainer">@color/tb_ink</item>
+        <item name="colorTertiary">@color/tb_accent</item>
+        <item name="colorTertiaryContainer">@color/tb_field</item>
+        <item name="colorOnTertiaryContainer">@color/tb_ink</item>
+        <item name="colorSurface">@color/tb_surface</item>
+        <item name="colorOnSurface">@color/tb_ink</item>
+        <item name="colorSurfaceVariant">@color/tb_field</item>
+        <item name="colorOnSurfaceVariant">@color/tb_text_secondary</item>
+        <item name="colorOutline">@color/tb_divider</item>
+        <item name="colorError">@color/tb_error</item>
+        <item name="android:colorBackground">@color/tb_background</item>
+        <item name="android:windowBackground">@color/tb_background</item>
+        <item name="elevationOverlayEnabled">false</item>
+        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.Timeboxing.BottomSheet</item>
+    </style>
+
+    <style name="Theme.Timeboxing" parent="Base.Theme.Timeboxing" />
+
+    <style name="ThemeOverlay.Timeboxing.BottomSheet" parent="ThemeOverlay.Material3.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Widget.Timeboxing.BottomSheet</item>
+    </style>
+
+    <style name="Widget.Timeboxing.BottomSheet" parent="Widget.Material3.BottomSheet.Modal">
+        <item name="backgroundTint">@color/tb_surface</item>
+    </style>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A 3x3 slice of the day grid: spent blocks, the current block, and blocks still ahead. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M35.5,33h7a2.5,2.5 0,0 1,2.5 2.5v7a2.5,2.5 0,0 1,-2.5 2.5h-7a2.5,2.5 0,0 1,-2.5 -2.5v-7a2.5,2.5 0,0 1,2.5 -2.5z
+            M50.5,33h7a2.5,2.5 0,0 1,2.5 2.5v7a2.5,2.5 0,0 1,-2.5 2.5h-7a2.5,2.5 0,0 1,-2.5 -2.5v-7a2.5,2.5 0,0 1,2.5 -2.5z
+            M65.5,33h7a2.5,2.5 0,0 1,2.5 2.5v7a2.5,2.5 0,0 1,-2.5 2.5h-7a2.5,2.5 0,0 1,-2.5 -2.5v-7a2.5,2.5 0,0 1,2.5 -2.5z
+            M35.5,48h7a2.5,2.5 0,0 1,2.5 2.5v7a2.5,2.5 0,0 1,-2.5 2.5h-7a2.5,2.5 0,0 1,-2.5 -2.5v-7a2.5,2.5 0,0 1,2.5 -2.5z" />
+    <path
+        android:fillColor="#22E022"
+        android:pathData="M50.5,48h7a2.5,2.5 0,0 1,2.5 2.5v7a2.5,2.5 0,0 1,-2.5 2.5h-7a2.5,2.5 0,0 1,-2.5 -2.5v-7a2.5,2.5 0,0 1,2.5 -2.5z" />
+    <path
+        android:fillColor="#5A5A5A"
+        android:pathData="M65.5,48h7a2.5,2.5 0,0 1,2.5 2.5v7a2.5,2.5 0,0 1,-2.5 2.5h-7a2.5,2.5 0,0 1,-2.5 -2.5v-7a2.5,2.5 0,0 1,2.5 -2.5z
+            M35.5,63h7a2.5,2.5 0,0 1,2.5 2.5v7a2.5,2.5 0,0 1,-2.5 2.5h-7a2.5,2.5 0,0 1,-2.5 -2.5v-7a2.5,2.5 0,0 1,2.5 -2.5z
+            M50.5,63h7a2.5,2.5 0,0 1,2.5 2.5v7a2.5,2.5 0,0 1,-2.5 2.5h-7a2.5,2.5 0,0 1,-2.5 -2.5v-7a2.5,2.5 0,0 1,2.5 -2.5z
+            M65.5,63h7a2.5,2.5 0,0 1,2.5 2.5v7a2.5,2.5 0,0 1,-2.5 2.5h-7a2.5,2.5 0,0 1,-2.5 -2.5v-7a2.5,2.5 0,0 1,2.5 -2.5z" />
+</vector>

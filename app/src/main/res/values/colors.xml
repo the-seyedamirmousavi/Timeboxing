@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Palette extracted from the FitSho app screenshots. -->
+    <color name="tb_background">#FFF7F7F7</color>
+    <color name="tb_surface">#FFFFFFFF</color>
+    <color name="tb_ink">#FF000000</color>
+    <color name="tb_text_secondary">#FF8A8A8A</color>
+    <color name="tb_button">#FF2B2B2B</color>
+    <color name="tb_on_button">#FFFFFFFF</color>
+    <color name="tb_field">#FFF4F4F4</color>
+    <color name="tb_divider">#FFEEEEEE</color>
+    <color name="tb_accent">#FF22E022</color>
+    <color name="tb_block_past">#FFFBFBFB</color>
+    <color name="tb_error">#FFE53935</color>
+</resources>

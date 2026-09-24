@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ring_stroke">12dp</dimen>
+    <dimen name="ring_dot_radius">5dp</dimen>
+    <dimen name="grid_label_width">34dp</dimen>
+    <dimen name="grid_row_height">26dp</dimen>
+    <dimen name="grid_cell_gap">3dp</dimen>
+    <dimen name="grid_quarter_gap">8dp</dimen>
+    <dimen name="grid_cell_radius">4dp</dimen>
+    <dimen name="grid_now_stroke">2dp</dimen>
+    <dimen name="grid_label_text">12sp</dimen>
+</resources>
